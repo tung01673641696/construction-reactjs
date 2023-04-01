@@ -1,0 +1,9 @@
+
+//custom flexbox
+@mixin flex($align: flex-start, $justify:flex-start, $wrap:nowrap, $direct:row) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+    flex-direction:$direct;
+}

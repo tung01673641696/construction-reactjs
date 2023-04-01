@@ -1,0 +1,30 @@
+.css-ue9u67 {
+    width: 50%;
+    padding: 10px;
+}
+
+
+.box-main-form {
+    form {
+        .box_content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .box_item {
+                width: calc(100% / 2 - 20px);
+            }
+        }
+
+        .box_images {
+            margin: 20px 0;
+        }
+
+        .box_button {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+    }
+}

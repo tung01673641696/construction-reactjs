@@ -1,0 +1,25 @@
+.design_similar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: auto;
+  justify-content: space-between;
+
+  &_pagination {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+}
+
+.ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link {
+  margin: 0;
+}
+
+
+.ant-pagination-item-active {
+  color: #F4B309;
+  border: 1px solid #F4B309;
+}

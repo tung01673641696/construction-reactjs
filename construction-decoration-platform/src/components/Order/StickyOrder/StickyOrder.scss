@@ -1,0 +1,49 @@
+@use "../../../assets/common/utilities/mixins" as mixin;
+
+.sticky-order {
+  border-radius: 10px;
+  height: 500px;
+  // width: 25%;
+  width: 280px;
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  float: right;
+  padding: 20px;
+  // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.order {
+  &-total {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 10px;
+    &-price {
+      @include mixin.flex(start, space-between);
+      margin-top: 7px;
+    }
+  }
+
+  &-details {
+    border-bottom: 2px solid #edeef0;
+    &-link {
+      color: #4c7dfe;
+    }
+  }
+  &-flex {
+    @include mixin.flex(start, space-between);
+    margin-bottom: 10px;
+  }
+  &-checkout {
+    @include mixin.flex(center,center);
+    background-color: var(--orange-home);
+    height: 38px;
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+  }
+}
+

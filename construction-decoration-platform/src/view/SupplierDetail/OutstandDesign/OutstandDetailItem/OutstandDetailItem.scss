@@ -1,0 +1,13 @@
+.outstand-detail-item {
+  width: calc(100% / 3 - 20px);
+  margin-bottom: 30px;
+
+  img {
+    width: 100%;
+  }
+
+  span {
+    font-weight: 700;
+    font-size: 20px;
+  }
+}

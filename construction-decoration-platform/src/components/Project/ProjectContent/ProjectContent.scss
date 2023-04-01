@@ -1,0 +1,17 @@
+.project-content {
+  width: 85%;
+  margin: auto;
+  border: 1px solid #6500E7;
+  border-radius: 10px;
+
+  .project-content-element {
+    width: 85%;
+    margin: auto;
+
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 50px;
+    }
+  }
+}

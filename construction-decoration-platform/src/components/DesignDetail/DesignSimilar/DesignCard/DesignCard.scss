@@ -1,0 +1,9 @@
+.design_similar_card {
+  width: calc(100% / 3 - 20px);
+  margin-bottom: 30px;
+
+  span {
+    font-weight: 700;
+    font-size: 20px;
+  }
+}

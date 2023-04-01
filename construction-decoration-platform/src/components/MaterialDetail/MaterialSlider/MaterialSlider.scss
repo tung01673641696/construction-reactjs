@@ -1,0 +1,20 @@
+.material_slider {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+
+  &_small {
+    display: grid;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &_large {
+    img {
+      width: 100%;
+      height: 95%;
+    }
+  }
+}

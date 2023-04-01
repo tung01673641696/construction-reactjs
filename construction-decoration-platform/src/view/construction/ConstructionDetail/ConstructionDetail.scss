@@ -1,0 +1,60 @@
+.construction-detail {
+    .construction-detail-content {
+        width: 100%;
+        padding: 40px 70px;
+
+        .card-supplier-wrap {
+            border: 1px solid #A3A3A3;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .introduce {
+            margin-top: 40px;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            align-items: flex-start;
+
+            .introduce-content {
+                text-align: left;
+                border: 1px solid #A3A3A3;
+                padding: 20px;
+                border-radius: 10px;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 18px;
+            }   
+        }
+
+        .project-wrap {
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            .list-project {
+                border: 1px solid #A3A3A3;
+                padding: 20px;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 20px 3%;
+            }
+        }
+
+        .supplier-wrap {
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            .supplier-group {
+                border: 1px solid #A3A3A3;
+                padding: 20px;
+                border-radius: 10px;
+            }
+        }
+    }
+}

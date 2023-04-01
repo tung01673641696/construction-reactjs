@@ -1,0 +1,106 @@
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica Neue", sans-serif !important;
+}
+* {
+  --blue-footer: #262f56;
+  font-family: "Roboto", "Helvetica Neue", sans-serif !important;
+  --orange-home: #275B98;
+  --grey-product: #9b9b9b;
+}
+.height-line {
+  height: 80%;
+  width: 1px;
+  background-color: #dbdbdb;
+}
+.vietindustry {
+  font-size: 34px;
+  font-weight: 700;
+  margin-left: 3%;
+  color: #369313!important;
+  text-shadow: 0px 7.30435px 7.30435px rgba(0, 0, 0, 0.25);
+}
+a:hover {
+  text-decoration: none;
+  // color: #275B98!important;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.vietindustry:hover {
+  text-decoration: none;
+  color: #7edf61;
+}
+
+@media screen and (max-width: 600px) {
+  .vietindustry {
+    font-size: 27px;
+  }
+}
+
+
+.line {
+  background-color: #c4c4c4;
+  height: 1px;
+  width: 100%;
+  position: relative;
+  .line-orange {
+    position: absolute;
+    top: -1px;
+    // width: 25%;
+    transition: 0.5s;
+    height: 3px;
+    border-radius: 5px;
+    background-color: var(--orange-home);
+  }
+}
+.h-line{
+  background-color: #EDEEF0;
+  height: 1px;
+  width: 100%;
+}
+.carousel-item {
+  transition: transform 1s ease-in-out;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 0s 1s;
+}
+.see-more {
+  color: var(--orange-home);
+  border-radius: 5px;
+  border: 1px solid var(--orange-home);
+  height: 48px;
+  width: 142px;
+  margin: auto;
+  cursor: pointer;
+  p {
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+.text-title{
+  font-size: 18px;
+  font-weight: 500;
+}
+.box-shadow {
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+}
+.mt-30{
+  margin-top: 30px;
+}
+.mb-30{
+  margin-bottom: 30px;
+}
+.m-auto{
+  margin: auto;
+}
+
+// .pagination-btn-pgn{
+//   float: right;
+// }

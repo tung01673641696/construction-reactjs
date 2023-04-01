@@ -1,0 +1,104 @@
+.account-user-info {
+  &-title {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .account-info-main {
+    // height: 1000px;
+    padding-bottom: 30px;
+    width: 100%;
+    // border:1px solid black;
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    // justify-content: space-around;
+    input {
+      width: 100%;
+      border: 1px solid #dadada;
+      box-sizing: border-box;
+      border-radius: 4px;
+      height: 40px;
+    }
+    input:disabled {
+      background-color: #DADADA;
+    }
+    img {
+      height: 150px;
+      margin-left: 30%;
+      margin-top: 40px;
+      width: 150px;
+      border-radius: 100px;
+    }
+    .account-info-main-form {
+      margin-top: 40px;
+      padding-left:10px;
+      padding-right:10px;
+
+      .account-form-radio {
+        display: flex;
+        align-items: center;
+        label {
+          margin-left: 10px;
+          margin-right: 20px;
+          padding-bottom: 10px;
+        }
+        input[type="radio"] {
+          height: 20px;
+          width: 20px;
+          //   padding-top: 30px;
+        }
+      }
+      .account-form-change {
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--orange-home);
+      }
+      .account-user-info-btn {
+        float: right;
+        background-color: var(--orange-home);
+        height: 50px;
+        width: 120px;
+        cursor: pointer;
+        border-radius: 4px;
+        text-align: center;
+        // margin-right: 20px;
+        padding-top: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        color:white;
+      }
+      label {
+        font-weight: 500;
+        font-size: 18px;
+        margin-top: 15px;
+      }
+      .account-form-input {
+        display: flex;
+
+        // label {
+        //   font-weight: 500;
+        //   font-size: 18px;
+        // }
+        width: 100%;
+        justify-content: space-between;
+        .account-form-item {
+          width: 100%;
+          input {
+            border: 1px solid #dadada;
+            box-sizing: border-box;
+            border-radius: 4px;
+            height: 40px;
+          }
+        }
+        .account-form-mr {
+          // padding-right: 10px;
+          margin-right: 20px;          
+        }
+      }
+
+      .error {
+        height: 10px;
+        color: red;
+      }
+    }
+  }
+}

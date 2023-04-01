@@ -1,0 +1,61 @@
+@use "../../../../assets/common/utilities/mixins" as mixin;
+
+.header-top {
+  @include mixin.flex(center, space-between);
+  height: 40px;
+  background-color: var(--blue-footer);
+  color: white;
+
+  &-text {
+    @include mixin.flex(center, space-between);
+    margin-top: 15px;
+    padding: 0px 21px;
+    width: calc(100% - 183px);
+    p {
+      height: 100%;
+      font-size: 12px;
+      font-weight: 500;
+      color: white;
+    }
+    &-mobile {
+      display: none;
+    }
+    &-pc {
+      cursor: pointer;
+    }
+  }
+
+  .header-top-language {
+    height: 100%;
+    background-color: #fa6f34;
+    // display: flex;
+    // align-items: center;
+    @include mixin.flex(center);
+    font-size: 14px;
+    font-weight: 500;
+    #money {
+      color: white;
+      width: 80px;
+      height: 100%;
+      background-color: #275B98;
+      // background-color: #FA6F34B8;
+      border: none;
+    }
+    #language {
+      width: 103px;
+      color: white;
+      background-color: #275B98;
+      border: none;
+      height: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header-top-text-pc {
+    display: none;
+  }
+  .header-top-text-mobile {
+    display: block;
+  }
+}

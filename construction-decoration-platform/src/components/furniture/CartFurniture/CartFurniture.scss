@@ -1,0 +1,75 @@
+.fu_card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: calc(100% / 6 - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.25);
+
+  .fu_img {
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .fu_content {
+    width: 100%;
+
+    .fu_title {
+      font-weight: 500;
+      font-size: 16px;
+      width: 100%;
+      text-align: left;
+    }
+
+    .fu_price {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 500;
+      font-size: 14px;
+
+      .color {
+        color: #1DCE00;
+      }
+
+      .linethrough {
+        text-decoration: line-through;
+      }
+    }
+
+    .fu_detail {
+      display: flex;
+      justify-content: space-between;
+
+      .fu_color {
+        display: flex;
+
+        .fu_color_default {
+          width: 23px;
+          height: 23px;
+          border-radius: 50%;
+          margin-right: 5px;
+        }
+
+        .fu_color_private_1 {
+          background-color: cadetblue;
+        }
+        .fu_color_private_2 {
+          background-color:darkviolet;
+        }
+        .fu_color_private_3 {
+          background-color:gold;
+        }
+      }
+    }
+  }
+}
+
+.fu_card:hover {
+  transform: scale(1.08);
+  transition: 0.5s;
+}

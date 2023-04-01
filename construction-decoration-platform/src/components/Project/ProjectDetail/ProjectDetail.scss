@@ -1,0 +1,35 @@
+
+.project-detail {
+  width: 85%;
+  margin: 0 auto;
+  border: 1px solid #6500E7;
+  border-radius: 10px;
+  padding: 20px;
+
+
+  .project-detail-content {
+    display: flex;
+    padding: 5px;
+
+    .project-detail-content-title {
+      width: 10%;
+      span {
+        text-align: left;
+        font-size: 1.2rem;
+      }
+    }
+  
+    .project-detail-content-text {
+        margin-left: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+  
+        span {
+            text-align: left;
+            font-size: 1.2rem;
+        }
+    }
+  }
+}

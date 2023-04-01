@@ -1,0 +1,12 @@
+.projectAll {
+  width: 85%;
+  margin: 0 auto;
+
+  .projectAll-ele {
+    margin: 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 63px;
+  }
+}

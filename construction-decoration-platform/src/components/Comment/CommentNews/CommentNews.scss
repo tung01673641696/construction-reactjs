@@ -1,0 +1,67 @@
+.comment-news {
+  width: 70%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+ padding-bottom: 10px;
+  text-align: start;
+  .comment-news-add {
+    font-weight: 700;
+    font-size: 17px;
+  }
+  .comment-news-input {
+    width: 100%;
+    textarea {
+      width: 100%;
+      background: rgba(248, 126, 10, 0.2);
+      border-radius: 4px;
+      height: 96px;
+      border: none;
+      padding-left: 25px;
+      padding-top: 25px;
+    }
+  }
+  .comment-news-btn {
+    background-color: var(--orange-home);
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    p {
+      padding-top: 7px;
+    }
+    font-weight: 500;
+    height: 38px;
+    text-align: center;
+    border-radius: 5px;
+    width: 20%;
+  }
+  .comment-news-list {
+    font-size: 17px;
+    margin-top: 20px;
+    .comment-news-name {
+      color: var(--orange-home);
+      height: 7px;
+    }
+    .comment-news-text {
+      color: #98a9b5;
+    }
+    .comment-news-day {
+      font-weight: 400;
+      font-size: 12px;
+    }
+    .pagination-btn-news {
+      float: right;
+      position: absolute;
+      right: 5px;
+      bottom: 0px;
+    }
+  }
+  .pagination-btn-news {
+    float: right;
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
+  }
+}

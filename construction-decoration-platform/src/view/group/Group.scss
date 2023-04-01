@@ -1,0 +1,12 @@
+.group-content {
+  display: flex;
+  justify-content: flex-start;
+  &-chat {
+    width: 100%;
+    padding: 30px 30px 0 30px;
+  }
+}
+
+.list-group-recommend {
+  margin-top: 20px;
+}

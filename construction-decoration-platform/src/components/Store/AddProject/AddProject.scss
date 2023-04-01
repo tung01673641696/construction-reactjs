@@ -1,0 +1,63 @@
+.ant-select.ant-select-in-form-item {
+  width: 94%;
+  height: 47px;
+}
+
+.ant-select-selection-placeholder {
+  font-size: 18px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .content-ele {
+    width: calc(100% / 3 - 15px);
+
+    .ant-select {
+      width: 100%;
+    }
+
+    .ant-col {
+      width: 100%;
+
+      .ant-cascader {
+        width: 100%;
+
+        .ant-select-selector {
+          padding: 7px 10px;
+        }
+      }
+    }
+  }
+}
+
+.ant-picker {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+.ant-select-selection-placeholder {
+  color: #000000;
+}
+
+.ant-select-selection-item {
+  color: #000000;
+  font-size: 16px;
+}
+
+.ant-input {
+  font-size: 16px;
+}
+
+.ant-cascader-menu {
+  // min-width: 50%;
+  height: 154px;
+
+  .ant-cascader-menu-item-content {
+    padding: 7px 27px;
+  }
+}

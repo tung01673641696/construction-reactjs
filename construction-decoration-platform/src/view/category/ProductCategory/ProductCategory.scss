@@ -1,0 +1,43 @@
+@use "../../../assets/common/utilities/mixins" as mixin;
+
+.search-home {
+  display: flex;
+  // margin-bottom: 20px;
+  margin-top: 20px;
+  &-title {
+    @include mixin.flex();
+    margin-left: 10px;
+    position: sticky;
+    position: -webkit-sticky;
+    height: 350px;
+    width: 300px;
+    top: 70px;
+  }
+
+  &-body {
+    width: calc(100% - 300px);
+  }
+
+  &-category {
+    @include mixin.flex(flex-start, flex-start, nowrap, column);
+    &-title {
+      font-size: 17px;
+      font-weight: 500;
+      padding-left: 15px;
+    }
+  }
+  &-active {
+    color: #f87e0a;
+  }
+}
+
+.hidden_actived {
+  display: none;
+}
+
+.pagination-btn-pgn {
+  margin-bottom: 50px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}

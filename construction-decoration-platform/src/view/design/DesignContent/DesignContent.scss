@@ -1,0 +1,120 @@
+.page_design_content {
+  width: 85%;
+  margin: auto; 
+}
+
+.page_design_content_grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 5vw);
+  grid-gap: 1.5rem;
+}
+
+.gallery__item {
+  position: relative;
+  border-radius: 8px;
+
+  span {
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transform: translateX(-50%);
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.14) 0%, #000000 100%);
+  }
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+  border-radius: 8px;
+}
+
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.gallery__item--2 {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.gallery__item--3 {
+  grid-column-start: 7;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 7;
+}
+
+.gallery__item--4 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 7;
+}
+
+.gallery__item--5 {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 7;
+}
+
+.gallery__item--6 {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 7;
+  grid-row-end: 13;
+}
+
+.gallery__item--7 {
+  grid-column-start: 7;
+  grid-column-end: 10;
+  grid-row-start: 7;
+  grid-row-end: 10;
+}
+
+.gallery__item--8 {
+  grid-column-start: 10;
+  grid-column-end: 13;
+  grid-row-start: 7;
+  grid-row-end: 10;
+}
+
+.gallery__item--9 {
+  grid-column-start: 7;
+  grid-column-end: 10;
+  grid-row-start: 10;
+  grid-row-end: 13;
+}
+
+.gallery__item--10 {
+  grid-column-start: 10;
+  grid-column-end: 13;
+  grid-row-start: 10;
+  grid-row-end: 13;
+}
+
+button {
+  background: linear-gradient(93.58deg, #F4B309 0%, #FFE600 100%);
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 8px 20px;
+  margin: 50px 0;
+}

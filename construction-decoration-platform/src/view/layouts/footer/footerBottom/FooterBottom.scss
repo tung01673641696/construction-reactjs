@@ -1,0 +1,31 @@
+.footer-bottom {
+  height: 80px;
+  width: 100%;
+  background-color: #262f56;
+  &-container {
+    height: 100%;
+    // width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &-smiletech {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  &-industry {
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  &-icon {
+    img {
+      margin: 0px 7px;
+    }
+  }
+
+  div {
+    color: white;
+    margin-top: 7px;
+  }
+}

@@ -1,0 +1,66 @@
+.header-dropdown {
+  float: right;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  .header-dropdown-favorits {
+    img {
+      width: 26px;
+      height: 26px;
+    }
+  }
+  .header-dropdown-bag {
+    margin-left: 22px;
+  }
+
+  .header-dropdown-profile {
+    margin-right: 22px;
+    margin-left: 22px;
+    position: relative;
+
+    & > a > img {
+      width: 40px;
+    }
+  }
+  .header-dropdown-profile:hover {
+    .profile-login {
+      // display: block;
+      margin-top: 25px;
+      transition: 0.5s;
+      transform: translateX(-140px);
+    }
+  }
+
+  .MuiBadge-root.BaseBadge-root.css-1c32n2y-MuiBadge-root {
+    img {
+      width: 40px;
+    }
+  }
+}
+
+.menuBar {
+  // padding: 0 20px;
+  // border-bottom: solid 1px #e8e8e8;
+  // overflow: auto;
+  // box-shadow: 0 0 30px #f3f1f1;
+}
+
+@media screen and (max-width: 1200px) {
+  .header-dropdown {
+    .header-dropdown-favorits {
+      margin-left: 0px;
+    }
+    .header-dropdown-bag {
+      margin-left: 0px;
+
+      .icon_cart {
+        background-color: none;
+      }
+    }
+    .header-dropdown-profile {
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+  }
+}

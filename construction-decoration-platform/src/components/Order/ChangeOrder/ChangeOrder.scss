@@ -1,0 +1,26 @@
+.change-order-main{
+    width: 100%;
+    margin-top:25px;
+    padding: 0px 30px;
+    padding-top: 10px;
+    height: 116px;
+    .change-order-text{
+        display: flex;
+        justify-content: space-between;
+        .change-order-btn{
+            color:var(--orange-home);
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .change-order-name{
+            font-weight: 700;
+            font-size: 16px;
+            height: 10px;
+        }
+        .change-order-home{
+            font-size: 14px;
+            font-weight: 500;
+            color:#9B9B9B;
+        }
+    }
+}

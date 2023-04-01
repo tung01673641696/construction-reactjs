@@ -1,0 +1,40 @@
+.GroupSuggest {
+  &__Title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #222222;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  &__Box__Item {
+    // display: flex;
+    // justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    &__C {
+      width: 224px;
+      border-radius: 3px;
+      padding: 5px;
+      box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.05);
+      text-align: start;
+      margin-bottom: 10px;
+    }
+    &__Name {
+      margin-top: 5px;
+      height: 30px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      color: #222222;
+    }
+    &__Member {
+      margin-bottom: 5px;
+      color: #9b9b9b;
+    }
+    &__Join {
+      text-align: end;
+      color: #F87E0A;
+    }
+  }
+}

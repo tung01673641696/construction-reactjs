@@ -1,0 +1,51 @@
+.pagination-detail {
+  //   width: 90%;
+  //   background-color: red;
+
+  margin: auto;
+  margin-top: 50px;
+  .pagination-comment {
+    box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    width: 90%;
+    // height: 200px;
+    position: relative;
+    // background-color: red;
+    margin: auto;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    .pagination-comment-detail {
+      width: 95%;
+      margin: auto;
+      text-align: start;
+      .pagination-name-user {
+        height: 15px;
+      }
+    }
+    .pagination-like {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      bottom: 5px;
+      padding-top: 10px;
+      p {
+        height: 15px;
+        padding-top: 6px;
+        margin-right: 10px;
+      }
+      img {
+        height: 25px;
+      }
+      right: 10px;
+    }
+  }
+  .pagination-btn {
+    height: 100px;
+    position: relative;
+    .pagination-btn-pgn {
+      position: absolute;
+      right: 5%;
+      top: 40px;
+    }
+  }
+}

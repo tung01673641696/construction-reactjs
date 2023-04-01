@@ -1,0 +1,51 @@
+.GroupPosts {
+  padding: 20px 0px;
+  &__C {
+    display: flex;
+    width: 100%;
+    img {
+      height: 40px;
+      width: 40px;
+      margin-right: 10px;
+    }
+  }
+  &__All {
+    &__C {
+      margin-bottom: 20px;
+      padding: 10px;
+      &__User {
+        display: flex;
+        margin-bottom: 10px;
+        &__Name {
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 22px;
+          /* identical to box height, or 157% */
+
+          color: #000000;
+        }
+      }
+    }
+    &__Content {
+      display: flex;
+      flex-direction: column;
+    }
+    &__Comment {
+      display: flex;
+      align-items: center;
+      &__Input {
+        width: 100%;
+        input {
+          outline: none;
+          border: 1px solid #BABABA;
+          border-radius: 5px;
+          padding: 5px;
+          width: 100%;
+        }
+      }
+      &__User {
+        
+      }
+    }
+  }
+}

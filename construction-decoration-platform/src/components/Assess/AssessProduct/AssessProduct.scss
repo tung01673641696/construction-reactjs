@@ -1,0 +1,85 @@
+.assess-product {
+  margin-top: 30px;
+  box-shadow: 0px 2px 4px rgba(155, 155, 155, 0.15);
+  border-radius: 3px;
+  .assess-product-title {
+    background: #f6f6f6;
+    height: 50px;
+    p {
+      font-size: 18px;
+      padding-top: 15px;
+      font-weight: 500;
+    }
+  }
+  .assess-product-rating {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+    .assess-rating-sum {
+      .avg-rating {
+        font-size: 34px;
+        font-weight: 700;
+      }
+      .sum-rating {
+        color: var(--grey-product);
+        font-size: 14px;
+      }
+    }
+    .assess-rating-stars {
+      display: flex;
+      .assess-rating-stars-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        .assess-rating-stars-item {
+          img {
+            width: 17px;
+          }
+        }
+      }
+      .assess-rating-stars-line {
+        margin-left: 15px;
+        margin-top: 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .assess-rating-line-5 {
+          width: 114px;
+          height: 8px;
+          border-radius: 4px;
+          background: #f87e0a;
+        }
+        .assess-rating-line-4 {
+          width: 40px;
+          height: 8px;
+          background: #f87e0a;
+          border-radius: 4px;
+        }
+        .assess-rating-line-3 {
+          width: 29px;
+          height: 8px;
+          background: #f87e0a;
+          border-radius: 4px;
+        }
+        .assess-rating-line-2 {
+          width: 15px;
+          height: 8px;
+          background: #f87e0a;
+          border-radius: 4px;
+        }
+        .assess-rating-line-1 {
+          width: 8px;
+          height: 8px;
+          background: #f87e0a;
+          border-radius: 4px;
+        }
+      }
+    }
+    .assess-rating-total {
+      // p{
+      //     height: 10px;
+      // }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.slick-arrow {
+  background: red;
+  margin: 0;
+}
+
+.slick-track {
+  margin: 70px 0;
+  .slick-slide {
+    height: 55vh;
+
+   .material_card {
+    height: 50vh;
+
+    .material_card_img {
+      height: 25vh;
+
+      img {
+        height: 100%;
+      }
+    }
+
+    .material_card_content {
+      .material_card_name {
+        height: 50px;
+      }
+    }
+   }
+  }
+}

@@ -1,0 +1,28 @@
+.ant-select.ant-select-in-form-item {
+  width: 94%;
+  height: 47px;
+}
+
+.ant-select-selection-placeholder {
+  font-size: 18px;
+}
+
+.store-info {
+  .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+    .content-ele {
+      width: calc(100% / 3 - 15px);
+    }
+  }
+  
+  .ant-picker {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+}
+
+

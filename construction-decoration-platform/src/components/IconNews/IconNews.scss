@@ -1,0 +1,13 @@
+
+    .news-page-img-icon{
+      display: flex;
+      margin-top: 15px;
+      .news-page-icon-item{
+        display: flex;
+        margin-right: 10px;
+        img{
+          height: 20px;
+          width: 20px;
+        }
+      }
+    }

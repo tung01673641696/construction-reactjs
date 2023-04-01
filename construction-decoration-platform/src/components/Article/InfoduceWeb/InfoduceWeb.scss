@@ -1,0 +1,43 @@
+.work {
+  background-color: #fff;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.work-home {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.work-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 10px 0 50px;
+  text-align: center;
+}
+
+.work-body {
+  text-align: start;
+  margin: auto;
+  width: 80%;
+}
+
+.work-text {
+  font-size: 16px;
+}
+
+.work-bold {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.css-vubbuv {
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentcolor;
+    flex-shrink: 0;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,110 @@
+.juridical {
+  // width: 83.333333333333%;
+  padding: 20px 7%;
+  text-align: start;
+  height: auto;
+  margin: 0 auto;
+  background-color: #fff;
+
+  &-title {
+    width: fit-content;
+    display: flex;
+    height: 20px;
+    margin: 0 auto;
+    // margin-top: 24px;
+    margin-bottom: 80px;
+
+    p,
+    a {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      text-align: center;
+
+      color: #292d32;
+    }
+
+    img {
+      margin: 0 10px;
+    }
+  }
+
+  &-big-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #292d32;
+    max-width: 1052px;
+    margin: 0 auto;
+  }
+
+  &-container {
+    p,
+    span {
+      font-style: 16px;
+      //   line-height: 21.79px;
+      margin-bottom: 0;
+    }
+
+    .bold {
+      font-weight: 700;
+      font-style: normal;
+    }
+    .italic {
+      font-weight: 400;
+      font-style: italic;
+    }
+    .default {
+      font-weight: 400;
+      font-style: normal;
+    }
+  }
+  .juridical-bold {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .juridical-text {
+    font-size: 14px;
+    span {
+      font-weight: 700;
+    }
+  }
+  .juridical-italic {
+    font-style: italic;
+    font-size: 14px;
+  }
+  table {
+    width: 100%;
+    td {
+      border: 1px solid #ddd;
+      width: 50%;
+    }
+    th {
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+
+    border-collapse: collapse;
+
+    th,
+    td {
+      padding: 15px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .juridical {
+    .juridical-big-title {
+      font-size: 20px;
+    }
+    .juridical-title {
+      font-size: 14px;
+    }
+  }
+}

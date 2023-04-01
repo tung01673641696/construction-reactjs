@@ -1,0 +1,22 @@
+.homepage {
+    overflow: hidden;
+
+    a {
+        color: black;
+    }
+
+    // max-width: 1440px;
+    margin: 0 auto;
+
+    &_fu {
+        h2 {
+            width: 85%;
+            margin: auto;
+            text-align: left;
+            font-weight: 700;
+            font-size: 24px;
+            color: #F4B309;
+            margin-bottom: 30px;
+        }
+    }
+}

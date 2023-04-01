@@ -1,0 +1,11 @@
+.fu {
+  margin: auto;
+  width: 85%;
+  margin-bottom: 50px;
+
+  .fu_box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+}

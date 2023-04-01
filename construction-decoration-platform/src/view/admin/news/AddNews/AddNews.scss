@@ -1,0 +1,31 @@
+.add_news {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: 75%;
+  margin-top: 50px;
+  
+  .ant-typography {
+    text-align: left;
+  }
+
+  .ant-select.ant-select-in-form-item {
+    width: 100%;
+  }
+
+  .ecommerce-text-img {
+    text-align: left;
+  }
+}
+
+.Store_Add_Product {
+  display: flex;
+
+  .ecommerce-img-shop {
+    img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+}

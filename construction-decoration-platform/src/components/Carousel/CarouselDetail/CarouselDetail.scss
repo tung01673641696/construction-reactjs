@@ -1,0 +1,54 @@
+.carousel-detail {
+  width: 85%;
+  height: 279px;
+  margin: auto;
+  margin-top: 30px;
+  box-shadow: 0px 2px 4px rgba(155, 155, 155, 0.15);
+  border-radius: 3px;
+  margin-bottom: 40px;
+  .card-carousel {
+    height: 279px;
+    width: 85%;
+    font-size: 14px;
+    position: relative;
+    .card-carousel-discount{
+        position: absolute;
+        top:5px; 
+        height: 24px;
+        font-size: 11px;
+        font-weight: 500;
+        padding-top: 3px;
+        color:white;
+        left: 7px;
+        background-color: var(--orange-home);
+        border-radius: 5px;
+        width: 46px;
+    }
+    .card-carousel-name{
+        font-weight: 500;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
+        height: 45px;
+    }
+    .card-carousel-img{
+        img{
+            margin: auto;
+            height: 167px;
+            width: 160px;
+        }
+    }
+    .card-carousel-price{
+        font-weight: 400;
+    }
+    
+  }
+  .slick-slider{
+      width: 105%;
+      margin: auto;
+      margin-left: -2.6%;
+      display: flex;
+      align-items: center;
+  }
+}

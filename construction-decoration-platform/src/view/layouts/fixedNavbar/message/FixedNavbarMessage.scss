@@ -1,0 +1,16 @@
+.fixed-navbar-message{
+  
+    height: 64px;
+    width: 64px;
+    position: fixed;
+    bottom: 130px;
+    right: 44px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 9.38px;
+    img{ 
+            height: 50px;
+            width: 50px;   
+            border-radius: 9.38px;
+    }
+}

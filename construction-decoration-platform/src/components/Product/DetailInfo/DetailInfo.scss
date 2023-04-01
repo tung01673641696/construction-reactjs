@@ -1,0 +1,83 @@
+.detail-info {
+  // float: left;
+  text-align: start;
+  .detail-info-quantity {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+    p{
+        padding-top: 15px;
+    }
+    .detail-info-count {
+      border: 1px solid #dbdbdb;
+      display: flex;
+      height: 46px;
+      width: 128px;
+      justify-content: space-around;
+      align-items: center;
+      p{
+          padding-top: 17px;
+      }
+    }
+  }
+  .detail-info-name {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .detail-info-brands {
+    color: #9b9b9b;
+    span {
+      color: black;
+      margin: 0px 10px;
+    }
+  }
+  .detail-info-rating {
+    display: flex;
+    margin-top: 10px;
+    .detail-info-buy {
+      font-size: 14px;
+      font-weight: 500;
+      margin-left: 25px;
+    }
+  }
+  .detail-info-price {
+    font-size: 24px;
+    color: #db3022;
+    font-weight: 500;
+  }
+  .detail-info-discount {
+    font-size: 14px;
+    font-weight: 400;
+    // text-decoration-line: line-through;
+    color: black;
+    span {
+      color: #9b9b9b;
+      text-decoration-line: line-through;
+      margin-right: 25px;
+    }
+  }
+}
+.detail-count-product {
+  height: 36px;
+  width: 340px;
+  display: flex;
+  color: white;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  p {
+    padding-top: 15px;
+    margin-left: 10px;
+  }
+  font-weight: 500;
+  background-color: var(--orange-home);
+  border-radius: 4px;
+}
+.detail-describe-product {
+  // display: flex;
+  margin-top: 20px;
+  .describe-title {
+    color: var(--grey-product);
+  }
+}

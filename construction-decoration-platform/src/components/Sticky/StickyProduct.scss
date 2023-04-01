@@ -1,0 +1,31 @@
+.sticky-product {
+  position: sticky;
+  position: -webkit-sticky;
+  height: 350px;
+  width: 100%;
+  top:0;
+  .stick-product-ads {
+    height: 168px;
+    box-shadow: 0px 2px 4px rgba(155, 155, 155, 0.15);
+    border-radius: 3px;
+
+    .stick-product-ads-item {
+      display: flex;
+
+      text-align: center;
+      margin-left: 25px;
+      p {
+        padding-top: 15px;
+        margin-left: 10px;
+      }
+    }
+  }
+  .stick-product-banner{
+      height: 474px;
+      width: 100%;
+      img{
+          height: 100%;
+          width: 100%;
+      }
+  }
+}

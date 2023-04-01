@@ -1,0 +1,86 @@
+.fu_content {
+  text-align: left;
+
+  &_name {
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  &_des {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px 0;
+
+    span {
+      color: #838383;
+    }
+  }
+
+  &_select {
+    display: flex;
+    margin: 10px 0;
+
+    .fu_content_select_color {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      margin-right: 5px;
+    }
+
+    .color1 {
+      background-color:#FF842B;
+    }
+
+    .color2 {
+      background-color:#FF0000;
+    }
+
+    .color3 {
+      background-color:brown;
+    }
+  }
+
+  &_price {
+    font-weight: 500;
+    font-size: 24px;
+    color: #1DCE00;
+  }
+
+  &_text {
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  &_button {
+    margin: 15px 10px 20px 0;
+  }
+
+  &_button_color {
+    color: #F4B309;
+    background: #FFFFFF;
+    border: 1px solid #F4B309;
+  }
+
+  &_interactive {
+    text-align: right;
+
+    .fu_content_interactive_button {
+      margin: 20px 0 20px 10px;
+    }
+
+    .button_love {
+      background: linear-gradient(96.67deg, #FF0000 0%, #FF842B 100%);
+    }
+
+    .button_love:hover {
+      background: #FFFFFF;
+      color: #FF0000;
+      border: 1px solid #FF0000;
+      transition: 0.7s;
+    }
+
+    .button_cart {
+      background: linear-gradient(180deg, #2F0565 0%, #6500E7 100%);
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.ecommerce-text-img {
+  // color: #006889;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.ecommerce-create-img {
+  // margin-top: -50px;
+  //   display: flex;
+}
+
+.ecommerce-img-shop {
+  display: flex;
+  // justify-content: space-between;
+  // width: 40px;
+  // height: 40px;
+  // margin-top: 10px;
+  img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    object-fit:fill;
+  }
+  // width: 200px;
+}
+
+.Store_Add_Product {
+  display: flex;
+}

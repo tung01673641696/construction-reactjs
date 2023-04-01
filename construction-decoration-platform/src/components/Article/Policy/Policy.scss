@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+.policy {
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0px;
+  height: auto;
+  width: 100%;
+  text-align: start;
+  // margin-bottom: 50px;\
+  padding-bottom: 50px;
+  background-color: #fff;
+  .policy-container {
+    box-sizing: border-box;
+   
+    padding: 0px;
+    height: auto;
+    width: 85%;
+    margin: auto;
+    font-family: "Open Sans";
+    .policy-home {
+      text-align: center;
+      margin: auto;
+      font-size: 14px;
+      padding: 30px 0px;
+      font-family: 'Open Sans';
+    }
+    .policy-title {
+      font-size: 28px;
+      font-weight: 700;
+      text-align: center;
+      font-family: 'Open Sans';
+    }
+    .policy-condition {
+      margin: 30px 0px;
+      padding: 5px 0px;
+      height: auto;
+      font-family: 'Open Sans';
+      p {
+       
+        font-family: 'Open Sans';
+      }
+      table,
+      td,
+      th {
+        border: 1px solid #ddd;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        text-align: center;
+      }
+
+      th,
+      td {
+        padding: 15px;
+      }
+    }
+    .policy-condition-italic {
+      font-style: italic;
+      font-family: 'Open Sans';
+      padding: 12px 0px;
+      height: auto;
+      p{
+        min-height: 35px;
+      }
+      
+    }
+    .policy-bottom {
+        margin-top: 35px;
+        font-family: 'Open Sans';
+        p{
+            margin-top: -10px;
+            span{
+                font-weight: 700;
+            }
+        }
+    }
+    .policy-mob{
+
+    }
+  }
+}
+@media (max-width: 768px){
+   .policy {
+     .policy-container{
+       .policy-mob{
+        //  display: none;
+        overflow-x: scroll;
+       }
+     }
+   }
+}

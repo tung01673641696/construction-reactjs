@@ -1,0 +1,48 @@
+
+.project-contact {
+  width: 85%;
+  margin: 50px auto;
+  border: 1px solid #6500E7;
+  border-radius: 10px;
+
+  .project-contact-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+
+    .project-contact-child {
+      width: calc(100% / 3 - 25px);
+      margin-bottom: 15px;
+
+      a {
+        width: 100%;
+
+        img {
+          width: 100%;
+        }
+
+        p {
+          color: #212121;
+          font-weight: 700;
+          font-size: 20px;
+          margin: 10px 0;
+        }
+      }
+    }
+  
+    .text-content {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+  
+        span {
+            text-align: left;
+            font-size: 1.2rem;
+        }
+    }
+  }
+}

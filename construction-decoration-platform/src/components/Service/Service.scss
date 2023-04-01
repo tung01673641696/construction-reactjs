@@ -1,0 +1,12 @@
+.service {
+  width: 85%;
+  margin: 0 auto;
+
+  .service_box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #bcabd1;
+    border-radius: 10px;
+    padding: 0 20px;
+  }
+}

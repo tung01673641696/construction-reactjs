@@ -1,0 +1,34 @@
+.design_card {
+  width: calc(100% / 3 - 15px);
+  margin-bottom: 30px;
+  position: relative;
+
+  .design_img {
+    width: 100%;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  span {
+    width: 97%;
+    padding: 10px 0;
+    position: absolute;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    bottom: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.14) 0%, #000000 100%);
+  }
+}
+
+// .design_card:hover {
+//   transform: scale(1.08);
+//   transition: 0.5s;
+// }

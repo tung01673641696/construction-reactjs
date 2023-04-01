@@ -1,0 +1,59 @@
+.account-address-add {
+  // label{
+  //     margin-bottom: 20px;
+  // }
+  input {
+    margin-bottom: 10px;
+  }
+  select {
+    margin-bottom: 10px;
+  }
+  input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+  }
+  input[type="checkbox"]:checked {
+    background-color: red;
+  }
+  // label{
+  //     padding-bottom: -30px;
+  // }
+  &-checkbox {
+    // margin-top: 10px;
+    display: flex;
+    align-items: center;
+    // height: 30px;
+    label {
+      margin-left: 10px;
+    }
+  }
+  &-btn {
+    // float: right;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    margin-top: 20px;
+    cursor: pointer;
+    height: 35px;
+  }
+  &-cancel {
+    color: var(--grey-product);
+    margin-right: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    // background-color:
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+  }
+  &-confirm {
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: var(--orange-home);
+    &:hover {
+      background-color: var(--orange);
+    }
+  }
+}

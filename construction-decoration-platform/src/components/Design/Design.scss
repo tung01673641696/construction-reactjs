@@ -1,0 +1,27 @@
+.design {
+  width: 85%;
+  margin: auto;
+
+  .design_box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  } 
+
+  .design_link {
+    display: inline;
+    padding: 10px 25px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 10px;
+    background: linear-gradient(93.58deg, #F4B309 0%, #FFE600 100%);
+  }
+
+  .design_link:hover {
+    background: #FFFFFF;
+    color: #F4B309;
+    border: 2px solid #F4B309;
+    transition: 0.5s;
+  }
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+.complain{
+    width: 100%;
+    text-align: start;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #fff;
+    .complain-title{
+        margin: auto;
+        margin-top: 30px;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Open Sans';
+        text-align: center;
+    }
+    .complain-body{     
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        .complain-body-title{
+            text-align: center;
+            font-weight: 700;
+            font-size: 28px;
+            font-family: 'Open Sans';
+        }
+        .complain-body-content{
+            margin: auto;
+            margin-top: 30px;
+            .complain-bold{
+                font-size: 16px;
+                font-weight: 700;
+                font-family: 'Open Sans';
+            }
+            .complain-text{
+                font-size: 16px;
+                font-family: 'Open Sans';
+                span{
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 760px){
+    .complain{
+        width: 100%;
+        .complain-body{
+            width: 90%;
+        }
+    }
+}

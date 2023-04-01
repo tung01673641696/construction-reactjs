@@ -1,0 +1,41 @@
+.card-project {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 10px;
+    row-gap: 10px;
+
+    .image-group {
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+        
+        img {
+            transition: 0.3s;
+            width: 100%;
+            vertical-align: middle;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            object-fit: cover;
+        }
+        
+        &:hover {
+            cursor: pointer;
+            img {
+                scale: 1.1;
+                animation: translate 0.5s;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    .card-content {
+        font-size: 1.6rem;
+        transition: 0.3s;
+        
+        &:hover {
+            cursor: pointer;
+            color: #F4B309;
+        }
+    }
+}

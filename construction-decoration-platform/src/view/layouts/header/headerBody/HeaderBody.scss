@@ -1,0 +1,148 @@
+@use "../../../../assets/common/utilities/mixins" as mixin;
+
+// .header-body {
+//   // @include mixin.flex(center, space-between);
+//   display: grid;
+//   height: 105px;
+//   grid-template-columns: 1.4fr 0.7fr;
+//   // grid-template-columns: 0.7fr 0.7fr;
+//   // padding: 0 33px;
+//   &-home {
+//     @include mixin.flex(center, space-between);
+//     height: 100%;
+//   }
+// }
+
+// @media screen and (max-width: 1200px) {
+//   .header-body {
+
+//     &-home {
+//       @include mixin.flex(center);
+//     }
+//   }
+// }
+
+.header-body {
+  display: flex;
+
+  .header-logo {
+    flex: 2;
+
+    .vietindustry {
+      display: block;
+    }
+  }
+
+  .header-center {
+    flex: 8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 14px;
+    flex-direction: column;
+    padding-top: 40px;
+
+    .header-search {
+      display: flex;
+      width: 60%;
+      height: 40%;
+      justify-content: center;
+
+      .search-group {
+        border: 1px solid #F4B309;
+        border-radius: 10px 0 0 10px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 4px 20px;
+
+        // svg {
+        //   font-size: 2.6rem;
+        //   color: #A3A3A3;
+        // }
+
+        input {
+          outline: none;
+          border: none;
+          margin-left: 12px;
+          font-size: 1.2rem;
+          width: 100%;
+        }
+      }
+
+      .category-drop {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(93.58deg, #F4B309 0%, #FFE600 100%);
+        border-radius: 0 10px 10px 0;
+
+        .category-drop-icon {
+          color: #FFFFFF;
+          font-size: 28px;
+        }
+      }
+    }
+  }
+
+  .profile-action {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 12px;
+    padding-right: 24px;
+
+    span {
+      font-size: 16px;
+      color: #FFFFFF;
+      padding: 8px 20px;
+      border-radius: 12px;
+    }
+
+    .login_button {
+      background-color: #F4B309;
+    }
+
+    .profile-name {
+      span {
+        font-size: 20px;
+      }
+
+      .icon-group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 8px;
+      }
+
+      svg {
+        font-size: 1.6rem;
+      }
+    }
+
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 60px;
+      cursor: pointer;
+      border: #fafafa solid 1px;
+    }
+
+    .header-dropdown {
+      margin-bottom: 25px;
+    }
+  }
+}
+
+
+span.css-to4x1n-MuiBadge-badge {
+  background-color: #FFFFFF;
+}
+
+.header-body .header-center .header-search .search-group svg {
+  font-size: 2.2rem;
+  color: #A3A3A3;
+}

@@ -1,0 +1,15 @@
+.my-google-button-class{
+    background-color: #DC0C1F;
+    // display: inline-flex;
+    display: flex;
+    align-items: center;
+    color: white;
+    box-shadow: rgb(0 0 0 / 24%) 0px 2px 2px 0px, rgb(0 0 0 / 24%) 0px 0px 1px 0px;
+    padding:0px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 500;
+    height: 42px;
+    width: 105%;
+}

@@ -1,0 +1,32 @@
+.GroupNew {
+  width: 100%;
+
+  &__Introduce {
+    &__C {
+      margin-top: 20px;
+      border: 1px solid #bababa;
+      border-radius: 5px;
+      padding: 0px 10px;
+      &__Title {
+        color: #313131;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 12px;
+        line-height: 20px;
+        border-bottom: 1px solid #bababa;
+      }
+      &__Des {
+        padding: 12px;
+      }
+      &__Status {
+        padding: 0px 12px;
+      }
+      &__Created {
+        padding: 12px;
+      }
+    }
+    &__Member {
+        
+    }
+  }
+}
