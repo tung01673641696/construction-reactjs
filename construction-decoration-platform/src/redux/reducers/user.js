@@ -15,12 +15,12 @@ export const getMyInfo = createAsyncThunk(
         return info;
     }
 );
-export const updateInfoUser = createAsyncThunk("user/updateInfo", async (id,data,thunkApi,{rejectWithValue}) => {
-    const update = await userApi.update(id,data);
+export const updateInfoUser = createAsyncThunk("user/updateInfo", async (id, data, thunkApi, { rejectWithValue }) => {
+    const update = await userApi.update(id, data);
     // if(update.status == 200) {
     //     thunkApi.dispatch(getMyInfo())
     // }
-     if (update.status != 200) {
+    if (update.status != 200) {
         return rejectWithValue("No user found");
     }
     return update;
@@ -44,28 +44,28 @@ export const forgotPassword = createAsyncThunk(
     async (data) => {
         const forgotPassword = await userApi.registerToken(data);
         return forgotPassword
-});
+    });
 
 export const verifyGmail = createAsyncThunk(
     "user/verifyGmail",
     async (data) => {
         const verifyGmail = await userApi.forgotPassword(data);
         return verifyGmail
-});
+    });
 
 export const changePassword = createAsyncThunk(
     "user/changePassword",
     async (data) => {
         const changePassword = await userApi.registerToken(data);
         return changePassword
-});
+    });
 
 export const loginGoogle = createAsyncThunk(
     "user/loginGoogle",
     async (data) => {
         const result = await userApi.loginGoogle(data);
         return result;
-        
+
     }
 );
 
@@ -74,7 +74,7 @@ export const loginFacebook = createAsyncThunk(
     async (data) => {
         const result = await userApi.loginFacebook(data);
         return result;
-        
+
     }
 );
 
@@ -131,7 +131,7 @@ const userSlice = createSlice({
                 state.user.data = result;
                 state.user.auth = true;
                 openNotification("success", "Đăng Nhập Thành Công !")
-                
+
             }
             // state.error = "Đăng Nhập Thành Công !";
         },

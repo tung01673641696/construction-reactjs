@@ -2,7 +2,7 @@ import axiosClient from "./axiosClient";
 
 const productApi = {
   async getAllFurniture() {
-    const url = `/products/all-paging?category_id=728`;
+    const url = `/products/all-paging`;
     return axiosClient.get(url);
   },
   async getDetail(id) {

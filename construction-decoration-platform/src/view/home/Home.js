@@ -38,7 +38,8 @@ function Home() {
     <div className="homepage">
       <Header />
       <HomeSearch />
-      <Product page={pageSale} size={10} type={"best-seller"} /> 
+      <ButtonFor text={"SẢN PHẨM BÁN CHẠY"} />
+      <Product page={pageSale} size={10} type={"best-seller"} />
 
       {/* <Category /> */}
       {/* <BannerCategory /> */}
@@ -58,7 +59,7 @@ function Home() {
       <Service />
 
       <ButtonFor text={"NỘI THẤT"} />
-      
+
       <div className="homepage_fu">
         <h2>Ưu đãi khủng</h2>
         <Furniture />
